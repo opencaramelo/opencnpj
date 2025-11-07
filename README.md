@@ -114,7 +114,7 @@ Mande um chamado ou crie uma issue — seu feedback ajuda muito a melhorar o Ope
 
 ### Quer apoiar o projeto?
 
-Dar um ⭐ no GitHub ou contribuir ajuda a manter o OpenCNPJ ativo e disponível para a comunidade.
+Dar um ⭐ no GitHub ou contribuir ajuda a manter o OpenCNPJ ativo e disponível para a comunidade..
 
 Obrigado pelo apoio! 🙌
 
