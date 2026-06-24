@@ -122,5 +122,8 @@ Obrigado pelo apoio! 🙌
 
 Se o OpenCNPJ está sendo útil para você e **quiser me pagar uma cerveja 🍺**, você pode contribuir clicando aqui:
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/opencaramelo)
+[![Mercado Pago PIX](https://img.shields.io/badge/Mercado%20Pago-PIX-00b1ea?style=for-the-badge&logo=mercado-pago&logoColor=white)](https://link.mercadopago.com.br/opencaramelo)
+
 ### Não é obrigatório, mas qualquer ajuda mantém o projeto ativo e disponível para a comunidade!  
 ### Também vale dar um ⭐ no GitHub 😉
