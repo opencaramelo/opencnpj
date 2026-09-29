@@ -1,36 +1,71 @@
 # OpenCNPJ
-### WebService para consulta basica de CNPJs com dados totalmente publico!
 
-🔗 **Acesse o projeto online:** [https://www.opencnpj.com](https://www.opencnpj.com)
+> **API pública e gratuita para consulta de CNPJ no Brasil.**
 
-Uma **API** feita para **ajudar a comunidade de desenvolvedores** a integrar dados de CNPJs de forma rápida e prática.  
-Pode ser usado em **qualquer projeto ou aplicação que precise acessar dados de CNPJs**.
+O **OpenCNPJ** é um projeto mantido pelo **OpenCaramelo**.
 
----
+🌐 **Site oficial:** https://opencnpj.com  
+📦 **Repositório oficial:** https://github.com/opencaramelo/opencnpj  
+🚀 **API:** https://kitana.opencnpj.com  
 
-## 🔹 Ideia do projeto
-
-- **Dados totalmente públicos de CNPJs**, acessíveis de forma simples.
-- Integração fácil com **qualquer sistema** que precise desses dados.
-- **Limite de 100 requisições por minuto**, para uso consistente sem sobrecarregar o serviço.
-- **100% gratuito**, permitindo que a comunidade participe, melhore e reutilize.
+> **Importante:** **OpenCNPJ** é o nome utilizado por diferentes projetos na internet. O projeto mantido pelo **OpenCaramelo** está disponível em **opencnpj.com**.
 
 ---
 
-## 🔹 Como usar
+## Sobre o OpenCNPJ
 
-Exemplo de requisição com `curl`:
+O **OpenCNPJ** é uma API pública e gratuita para consulta de dados cadastrais de empresas brasileiras a partir do **CNPJ**.
+
+O projeto foi criado para facilitar o acesso de desenvolvedores a dados públicos de empresas brasileiras, permitindo sua integração em aplicações, sistemas, pesquisas e projetos de software.
+
+### Identidade do projeto
+
+| Informação          | Valor                    |
+| ------------------- | ------------------------ |
+| Nome                | **OpenCNPJ**             |
+| Site oficial        | **https://opencnpj.com** |
+| Mantenedor          | OpenCaramelo             |
+| Repositório oficial | `opencaramelo/opencnpj`  |
+| API                 | `kitana.opencnpj.com`    |
+| Tipo                | API REST pública         |
+| Custo               | Gratuito                 |
+| Limite              | 300 req/min              |
+
+---
+
+## Características
+
+* 🇧🇷 Consulta de CNPJs de empresas brasileiras
+* 🔓 Dados públicos
+* 🆓 API gratuita
+* 🚀 API REST
+* 🔧 Fácil integração
+* 📦 Resposta em JSON
+* ⏱️ Limite de **300 requisições por minuto**
+* 🌎 Pode ser utilizada por qualquer aplicação compatível com HTTP
+
+---
+
+## Como usar
+
+A API pode ser consultada diretamente através de uma requisição HTTP.
+
+### cURL
 
 ```bash
-curl https://kitana.opencnpj.com/cnpj/07355799000188
+curl https://kitana.opencnpj.com/cnpj/12345678000195
 ```
+
+### Exemplo de resposta
+
+> **Nota:** os dados apresentados abaixo são fictícios e servem apenas para demonstrar o formato da resposta da API.
 
 ```json
 {
     "success": true,
     "message": null,
     "data": {
-        "cnpj": "99988877000199",
+        "cnpj": "12345678000195",
         "situacaoCadastral": "Ativa",
         "dataSituacaoCadastral": "15/03/2023",
         "motivoSituacaoCadastral": null,
@@ -96,34 +131,74 @@ curl https://kitana.opencnpj.com/cnpj/07355799000188
 }
 ```
 
-### Os dados são públicos?
+---
 
-Sim! Todos os dados são totalmente públicos e podem ser consultados nos portais oficiais do governo.
+## Dados
 
-### E estão sempre atualizados?
+O OpenCNPJ trabalha com **dados públicos de empresas brasileiras** disponibilizados por fontes oficiais.
 
-Nos esforçamos para manter tudo atualizado, com revisões mensais sempre que possível.
+Os dados podem sofrer alterações e possuem uma determinada data de atualização. A disponibilidade e a atualização dos registros dependem das fontes utilizadas pelo projeto.
 
-### Encontrou algum problema?
+Para informações oficiais e atualizadas diretamente na origem, consulte os portais governamentais correspondentes.
 
-Abra uma **issue** no GitHub e nos avise. Vamos adorar corrigir!
+---
 
-### Tem sugestões ou ideias?
+## Limite de utilização
 
-Mande um chamado ou crie uma issue — seu feedback ajuda muito a melhorar o OpenCNPJ!
+A API possui atualmente um limite de:
 
-### Quer apoiar o projeto?
+**300 requisições por minuto.**
 
-Dar um ⭐ no GitHub ou contribuir ajuda a manter o OpenCNPJ ativo e disponível para a comunidade..
+O limite existe para permitir o uso público do serviço e evitar sobrecarga da infraestrutura.
 
-Obrigado pelo apoio! 🙌
+---
 
-### Quer apoiar ainda mais o projeto?
+## Problemas e sugestões
 
-Se o OpenCNPJ está sendo útil para você e **quiser me pagar uma cerveja 🍺**, você pode contribuir clicando aqui:
+Encontrou um problema?
+
+Abra uma **Issue** no repositório oficial:
+
+https://github.com/opencaramelo/opencnpj/issues
+
+Sugestões e contribuições também são bem-vindas.
+
+---
+
+## Apoie o OpenCNPJ
+
+O OpenCNPJ é disponibilizado gratuitamente para a comunidade.
+
+Se o projeto for útil para você, algumas formas de ajudar são:
+
+* ⭐ Dar uma estrela no GitHub
+* 🐛 Relatar problemas
+* 💡 Enviar sugestões
+* 🔧 Contribuir com código
+* 📢 Divulgar o projeto
+* 🍺 Fazer uma contribuição financeira
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/opencaramelo)
 [![Mercado Pago PIX](https://img.shields.io/badge/Mercado%20Pago-PIX-00b1ea?style=for-the-badge&logo=mercado-pago&logoColor=white)](https://link.mercadopago.com.br/opencaramelo)
 
-### Não é obrigatório, mas qualquer ajuda mantém o projeto ativo e disponível para a comunidade!  
-### Também vale dar um ⭐ no GitHub 😉
+Qualquer apoio ajuda a manter o serviço disponível para a comunidade.
+
+---
+
+## Links oficiais
+
+🌐 **Site oficial:** https://opencnpj.com  
+📦 **Repositório:** https://github.com/opencaramelo/opencnpj  
+🏠 **OpenCaramelo:** https://opencaramelo.com  
+
+---
+
+## Sobre o nome "OpenCNPJ"
+
+Existem outros projetos e serviços independentes que também utilizam o nome **OpenCNPJ**.
+
+Para referência, o OpenCNPJ mantido pelo OpenCaramelo está disponível em:
+
+> **OpenCNPJ — opencnpj.com — OpenCaramelo**
+
+O **OpenCNPJ** está disponível em **`opencnpj.com`** e é mantido pelo **OpenCaramelo**.  
